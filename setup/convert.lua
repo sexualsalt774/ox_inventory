@@ -198,8 +198,14 @@ local function Convert_Old_ESX_Property()
 	started = false
 end
 
+local function ConvertMythic()
+	-- TODO MYTHIC:
+	print('not yet done')
+end
+
 return {
 	linden = Upgrade,
 	esx = ConvertESX,
 	esxproperty = Convert_Old_ESX_Property,
+	mythic = ConvertMythic,
 }
